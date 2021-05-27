@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Students & Cohorts",
+            "group": "Students & Cohorts",
+            "database": "${workspaceFolder:phase-3-object-relations-practice-code-challenge-students-one-many}/db/development.sqlite3"
+        }
+    ]
+}

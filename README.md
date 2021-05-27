@@ -4,6 +4,14 @@
 
 For this assignment, we'll be working with a Students domain.
 
+`COHORT`
+
+has_many :students
+
+`STUDENT`
+
+belongs_to :cohort
+
 We have two models: `Cohort` and `Student`.
 
 For our purposes, a `Cohort` has many `Students`s and a `Student` belongs to a `Cohort`.
